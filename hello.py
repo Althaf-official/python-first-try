@@ -1,3 +1,3 @@
 a="this is lenth printing of the text"
 
-print(a[3])
+print(a[3:18])
