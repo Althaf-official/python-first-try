@@ -1,5 +1,8 @@
-a=10
+a=input("enter a value")
 b=20
+
+print(type(a))
+print(type(b))
 
 t=a
 
