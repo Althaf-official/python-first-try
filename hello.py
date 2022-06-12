@@ -2,6 +2,6 @@ name="althaf"
 name="mas solutoions"
 
 values=["muhammed","althaf","sharafudheen","mascreation"]
-values[1]="mas"
+values=values + ["this is sample ",29]
 
-print(values[-3:])
+print(values)
