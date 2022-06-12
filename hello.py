@@ -1,3 +1,7 @@
-a="this is lenth printing of the text"
+name="althaf"
+name="mas solutoions"
 
-print(a[-18:-1])
+values=["muhammed","althaf","sharafudheen"]
+values[1]="mas"
+
+print(values)
