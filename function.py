@@ -1,4 +1,10 @@
-def hey(name):
-    print("hello my name is "+name)
+def hey(name,age):
+    print("hello my name is "+name , "age is "+str(age))
+
+def hello():
+    print("hello")
+
+
 value="massolutions"
-hey(value)
+hello()
+hey(value,1)
