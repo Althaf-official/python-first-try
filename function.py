@@ -1,5 +1,5 @@
-def hey(name,age):
-    print("hello my name is "+name , "age is "+str(age))
+def hey(*values):
+    print("first name is:"+values[1]+ "  second name is "+values[0]+"  fatheres name is  "+values[2])
 
 def hello():
     print("hello")
@@ -7,4 +7,4 @@ def hello():
 
 value="massolutions"
 hello()
-hey(value,1)
+hey("althaf","muhaammed","shrafudheen")
