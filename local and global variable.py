@@ -1,7 +1,8 @@
 value=10
 
 def sample():
-    value=30
+    value=5
+    value=value+1
     print(value)
 
 print(sample())
