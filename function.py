@@ -1,4 +1,4 @@
-def hey():
-    print("hello")
+def hey(name):
+    print("hello my name is "+name)
 
-hey()
+hey("muhammed althaf")
