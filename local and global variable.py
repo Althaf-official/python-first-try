@@ -1,9 +1,8 @@
 value=10
 
 def sample():
-    value=5
-    value=value+1
-    print(value)
+    s=value+1
+    print(s)
 
 print(sample())
 print(value)
