@@ -5,6 +5,9 @@
 #mas.checkNegorPos(15)\
 
 
-from using_module import checkNegorPos as mascheck
-mascheck(10)
-mascheck(-12)
+#from using_module import checkNegorPos as mascheck
+#mascheck(10)
+#mascheck(-12)
+
+import platform
+print(platform.processor())
