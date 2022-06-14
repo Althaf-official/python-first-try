@@ -1,3 +1,4 @@
+print(__name__)
 print("welcome")
 
 def checkNegorPos(num):
