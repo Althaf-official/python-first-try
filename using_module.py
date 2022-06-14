@@ -1,3 +1,5 @@
+print("welcome")
+
 def checkNegorPos(num):
     if num < 0:
         print("entered number is negative")
