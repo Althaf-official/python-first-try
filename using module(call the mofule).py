@@ -1,6 +1,6 @@
 import using_module
-print(__name__)
+print(using_module.__name__)
 
 
-#using_module.checkNegorPos(9)
+using_module.checkNegorPos(9)
 
