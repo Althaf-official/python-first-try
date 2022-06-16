@@ -52,6 +52,18 @@ y.add_age()
 x.display()
 y.display()
 
+print("____________________________________________________")
+#now we will call class function
+CrossroadsTeamMember.add_year()
+
+x.add_age()
+y.add_age()
+x.relocate("abudhabi")
+y.relocate("dubai")
+
+x.display()
+y.display()
+
 
 
 
