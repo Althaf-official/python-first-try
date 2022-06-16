@@ -9,10 +9,10 @@ class MySampleClass: #this is a class
 c=MySampleClass()#we assaign MysampleClass as a varibale
 d=MySampleClass()
 
-name="althaf"
+name="althaf2"
 c.hello(name) #we pass the variable here
-d.hello("Muhammed Althaf")
-
-
 c.PrintName()
-d.PrintName()
+
+#name="Muhmmed althaf"   - instead of asssign a varible like this directly i pass the value here
+d.hello("Muhammed Althaf")
+d.PrintName()# i call the function
