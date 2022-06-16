@@ -21,8 +21,12 @@ class CrossroadsTeamMember:
     def add_year(cls):
         cls.year=cls.year+1
 
+    @staticmethod
+    def display_welcome():
+        print("welcome")
 
 
+CrossroadsTeamMember.display_welcome()
 
 x=CrossroadsTeamMember("althaf",26,"kallambalam")
 y=CrossroadsTeamMember("muhammed",22,"attingal")
