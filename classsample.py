@@ -16,3 +16,5 @@ c.PrintName()
 #name="Muhmmed althaf"   - instead of asssign a varible like this directly i pass the value here
 d.hello("Muhammed Althaf")
 d.PrintName()# i call the function
+
+
