@@ -1,20 +1,16 @@
 class First:
-    def display_first(self):
+    def display(self):
         print("first")
 
-class Second(First):#inheritted from the first class
-    def display_second(self):
+class Second():
+    def display(self):
         print("second")
 
-#now display_first and display_second  going to inherit to another c
-
-class Third(Second):#inherit from the sencond class
-    def display_third(self):
+class Third(First,Second):#(First,Second))  it will show the result from left to right .means if you make the argument second it will show the function second firstly
+    def display1(self):
         print("third")
-
+#this case it will only search until found.
 
 x=Third()
-x.display_third()
-x.display_first()
-x.display_second()
+x.display()
 
