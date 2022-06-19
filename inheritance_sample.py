@@ -10,7 +10,7 @@ class BaseClass:
 
 class Subclass(BaseClass):
     def __init__(self):
-        BaseClass.__init__(self)#this is the method to call baseclass function
+        super().__init__()#this is the method to call baseclass function
         print("subclass init")
 
     def set_name(self,name):
