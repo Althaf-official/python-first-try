@@ -6,10 +6,15 @@ print(datetime.datetime.today())
 
 
 #how to add data from
-x=datetime.datetime(2020,4,12)
-y=datetime.datetime(2015,4,12)
+x=datetime.datetime(year=2020,day=4,month=12)
+y=datetime.datetime(year=2020,day=4,month=10)
 
 dif=x-y
 print(dif)
 
 print(x)
+
+#now we will the difference between this project starting time and ending time
+end=datetime.datetime.now()
+difference=end-now
+print(difference)#its showing micro seconds
