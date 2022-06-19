@@ -14,6 +14,7 @@ class Subclass(BaseClass):
         print("subclass init")
 
     def set_name(self,name):
+        super().set_name(name)#this is the way to call samename function from another class
         self.name=name
         print("sub class set_name fucnction")
 
