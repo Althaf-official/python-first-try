@@ -5,11 +5,15 @@ class BaseClass:
 
     def set_name(self,name):
         self.name=name
+        print("base class set_name fucnction")
 
 
 class Subclass(BaseClass):
     def __init__(self):
         print("subclass init")
+    def set_name(self,name):
+        self.name=name
+        print("sub class set_name fucnction")
 
     def welcome(self):
         print("welcome")
