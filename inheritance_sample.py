@@ -1,10 +1,15 @@
 #in python we can inherit from two class to one class but java cannot
 class BaseClass:
+    def __init__(self):
+        print("Base print")
+
     def set_name(self,name):
         self.name=name
 
 
 class Subclass(BaseClass):
+    #def __int__(self):
+
     def welcome(self):
         print("welcome")
 
