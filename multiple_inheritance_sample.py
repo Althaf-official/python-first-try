@@ -1,9 +1,9 @@
 class First:
-    def display_first(self):
+    def display(self):
         print("first")
 
 class Second:
-    def display_second(self):
+    def display(self):
         print("second")
 
 #now display_first and display_second  going to inherit to another c
@@ -15,5 +15,4 @@ class Third(First,Second):
 
 x=Third()
 x.display_third()
-x.display_second()
-x.display_first()
+x.display()
