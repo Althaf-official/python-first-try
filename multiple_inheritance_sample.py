@@ -14,7 +14,7 @@ class Third(Second,First):#(First,Second))  it will show the result from left to
 x=Third()
 x.display()
 
-print(Third.mro())
+print(Third.mro())#mro means method resolution order
 
 #now the Class name Second comes first
 
