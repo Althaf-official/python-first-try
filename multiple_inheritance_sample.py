@@ -14,3 +14,5 @@ class Third(First,Second):#(First,Second))  it will show the result from left to
 x=Third()
 x.display()
 
+print(Third.mro())
+
