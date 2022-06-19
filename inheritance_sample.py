@@ -8,7 +8,8 @@ class BaseClass:
 
 
 class Subclass(BaseClass):
-    #def __int__(self):
+    def __init__(self):
+        print("subclass init")
 
     def welcome(self):
         print("welcome")
